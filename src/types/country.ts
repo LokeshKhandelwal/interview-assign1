@@ -12,7 +12,7 @@ export interface CountryFlags {
 export interface Country {
   name: CountryName
   population: number
-  area: number
+  area?: number
   capital?: string[]
   region: string
   flags: CountryFlags
